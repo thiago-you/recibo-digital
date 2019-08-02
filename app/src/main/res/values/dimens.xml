@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_fragment__margin">2dp</dimen>
+    <dimen name="activity_vertical_fragment_margin">5dp</dimen>
+
+    <!-- Default text sizes -->
+    <dimen name="activity_title">22sp</dimen>
+    <dimen name="activity_btn">18sp</dimen>
+
+    <!-- Default Pen Signature Size -->
+    <dimen name="pen_size">1.1</dimen>
+    <dimen name="pen_medium">2dp</dimen>
+    <dimen name="pen_max">3dp</dimen>
+</resources>

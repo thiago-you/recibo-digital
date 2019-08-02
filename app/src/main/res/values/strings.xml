@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Recibo Digital</string>
+
+    <!-- btn -->
+    <string name="btn_home">Home</string>
+    <string name="btn_add">Novo</string>
+    <string name="btn_config">Config</string>
+    <string name="btn_add_recibo">Adicionar</string>
+    <string name="btn_clean">Limpar Dados</string>
+    <string name="btn_clear_date">Limpar</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <!-- title -->
+    <string name="title_home">Lista de Recibos</string>
+    <string name="title_add">Novo Recibo</string>
+    <string name="title_config">Configurações</string>
+    <string name="alert_title">Atenção</string>
+
+    <!-- Hints -->
+    <string name="recibo_nome">Nome</string>
+    <string name="recibo_valor">Valor</string>
+    <string name="recibo_parcela">Num. da Parcela</string>
+    <string name="recibo_data">Data do Pagamento</string>
+    <string name="recibo_observacao">Observação</string>
+    <string name="assinatura">Assinatura</string>
+    <string name="signature_hint">Imagem da assinatura do responsável</string>
+
+    <!--formatted strings -->
+    <string name="fmt_recibo_nome">Nome: %1$s</string>
+    <string name="fmt_recibo_valor">Valor: %1$.2f</string>
+    <string name="fmt_recibo_valor_total">Total Pago: %1$.2f</string>
+    <string name="fmt_recibo_parcela">Num. da Parcela: %1$s</string>
+    <string name="fmt_recibo_observacao">Observação: %1$s</string>
+    <string name="fmt_recibo_data">Data: %1$s</string>
+
+    <!-- messages -->
+    <string name="recibo_success">O recibo foi adicionado com sucesso.</string>
+    <string name="recibo_fail">Não foi possível adicionar o recibo.</string>
+    <string name="config_msg">Todos os dados serão deletados do aplicativo.</string>
+    <string name="config_alert">Deseja mesmo limpar os dados?</string>
+    <string name="delete_alert">Deseja mesmo deletar este recibo?</string>
+    <string name="clean_success">Os dados foram excluídos com sucesso.</string>
+    <string name="delete_success">O recibo foi excluído com sucesso.</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#01579B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="signaturePadColor">#efeeeb</color>
+    <color name="penColor">#0662BD</color>
+    <color name="textColor">#0F0F0F</color>
+    <color name="form">#F7F7F6</color>
+</resources>

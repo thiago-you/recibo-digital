@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="you.dev.recibodigital">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_recibo_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_recibo_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="www.recibo-virtual.com" android:pathPrefix="/recibo-digital" />
+                <data android:scheme="recibo-digital" android:host="recibo-digital" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
